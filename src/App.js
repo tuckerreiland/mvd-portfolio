@@ -1,12 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import About from "./components/About";
+import Contact from "./components/Contact";
+import Header from "./components/Header";
+import Resume from "./components/Resume";
 
 function App() {
   return (
-    <div className="text-3xl text-red-500">
-      <h1>
-		Hellow World
-	  </h1>
+    <div className="">
+		<Header/>
+		<About/>
+		<Resume/>
+		<Contact/>
     </div>
   );
 }
