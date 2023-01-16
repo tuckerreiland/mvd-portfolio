@@ -2,8 +2,8 @@ import React from 'react'
 
 function Contact() {
   return (
-	<div className='flex flex-col'>
-		<h2>Contact:</h2>
+	<div className='flex flex-col justify-center'>
+		<h2 className='text-xl bg-red-300 m-2 p-2 text-center w-fit font-proxima font-bold'>contact</h2>
 			<div className='flex flex-col items-center'>
 				<div className='flex flex-row w-full'>
 					<input className='w-full' placeholder='last name'></input>
